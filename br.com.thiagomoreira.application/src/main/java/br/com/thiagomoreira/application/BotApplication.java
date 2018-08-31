@@ -34,8 +34,6 @@ import br.com.thiagomoreira.bot.api.Bot;
 public class BotApplication {
 
 	protected Logger logger = LoggerFactory.getLogger(BotApplication.class);
-	protected BundleContext context;
-	protected ServiceRegistration<Bot> serviceRegistration;
 	@Reference(target = "(component.factory=bot.factory)")
 	protected ComponentFactory factory;
 
