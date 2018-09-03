@@ -25,6 +25,23 @@
 	</parent>
 
 	<artifactId>br.com.thiagomoreira.bot.api</artifactId>
+	<packaging>bundle</packaging>
 
 	<name>Bot API</name>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>2.5.4</version>
+				<extensions>true</extensions>
+				<configuration>
+                    <unpackBundle>true</unpackBundle>
+					<instructions>
+						<Export-Package>br.com.thiagomoreira.bot.api</Export-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

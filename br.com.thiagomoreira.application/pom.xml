@@ -25,6 +25,7 @@
 	</parent>
 
 	<artifactId>br.com.thiagomoreira.application</artifactId>
+	<packaging>bundle</packaging>
 
 	<name>Application</name>
 

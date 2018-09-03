@@ -25,6 +25,7 @@
 	</parent>
 
 	<artifactId>br.com.thiagomoreira.bot.impl</artifactId>
+	<packaging>bundle</packaging>
 
 	<name>Bot Implementation</name>
 
